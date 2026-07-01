@@ -1,0 +1,19 @@
+{
+  "name": "12ruls",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx app.ts",
+    "bot": "tsx telegram/run-bot.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "fast-xml-parser": "^4.5.0",
+    "telegraf": "^4.16.3"
+  }
+}
