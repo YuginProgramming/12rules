@@ -7,6 +7,6 @@
     "skipLibCheck": true,
     "noEmit": true
   },
-  "include": ["app.ts", "telegram/**/*.ts", "DB/**/*.ts"]
+  "include": ["app.ts", "fb2/**/*.ts", "telegram/**/*.ts", "DB/**/*.ts"]
 }
 

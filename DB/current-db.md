@@ -208,8 +208,11 @@ Run with: `npm run db:migrate`
 
 | Table | Status |
 |-------|--------|
-| `twelverules_rules` | Created + seeded from `content.txt` (titles) |
-| `twelverules_chapters` | Created + seeded from `content.txt` (chapter titles; bodies empty) |
+| `twelverules_rules` | Created + seeded from `content.txt`; titles refreshed from FB2 |
+| `twelverules_chapters` | Seeded titles + **81/81** `content_original` filled via FB2 import |
 | `twelverules_learning_progress` | Not yet — daily-scheduler stage |
 
-Seed command: `npm run db:seed` (`DB/seed-from-content.ts`)
+Commands:
+
+- Seed titles: `npm run db:seed` (`DB/seed-from-content.ts`)
+- Import English bodies: `npm run db:import-fb2` (`DB/import-fb2.ts`)

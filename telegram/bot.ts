@@ -18,7 +18,11 @@ export async function launchTelegramBot(): Promise<void> {
   await bot.telegram.setMyCommands([
     { command: "start", description: "Start" },
     { command: "rules", description: "List all 12 rules" },
+    { command: "rule", description: "Chapters for a rule by number" },
+    { command: "chapter", description: "Read a chapter: /chapter <rule> <n>" },
   ]);
+
+
 
 
   await bot.launch();

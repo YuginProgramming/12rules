@@ -6,7 +6,8 @@
     "start": "tsx app.ts",
     "bot": "tsx telegram/run-bot.ts",
     "db:migrate": "tsx DB/migrate.ts",
-    "db:seed": "tsx DB/seed-from-content.ts"
+    "db:seed": "tsx DB/seed-from-content.ts",
+    "db:import-fb2": "tsx DB/import-fb2.ts"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
